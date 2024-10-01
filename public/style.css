@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+     /* Adiciona uma transição suave para as mudanças de cor ao alternar entre os temas. */
+    }
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /* Altera o cursor para uma "mãozinha" ao passar o mouse sobre o botão. */
+}
+
+/*Tema claro */
+body.lingt-theme{
+    background-color: #ffffffff;
+    color:#000000;
+}
+
+/*Tema escuro */
+body.dark-theme{
+    background-color: #000000;
+    color:#ffffffff;
+}
